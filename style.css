@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+header {
+  background-image: url('pC:\Users\hamza\Downloads\th.jpg'); /* Set your background image here */
+  background-size: cover; /* Cover the entire header area */
+    background-position: center; /* Center the image */
+    height: 300px; /* Set a fixed height for the header */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within header */
+}
+
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #0059b9;
+}
+
+.biography, .achievements {
+  background: rgba(119, 0, 255, 0.338);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #0015ff;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
